@@ -1,0 +1,140 @@
+  .page-capasitor-onboarding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .onboarding-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .onboarding-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .onboarding-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-input,
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 5px;
+    color: #e0e0e0;
+    transition: border-color 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  .form-input:focus,
+  .form-select:focus {
+    border-color: #4caf50;
+    transform: scale(1.02);
+    outline: none;
+  }
+  
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    padding: 10px 0;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 6px;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .checkbox-input {
+    accent-color: #4caf50;
+    margin-left: auto;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .checkbox-label:hover,
+  .checkbox-input:checked + .checkbox-label {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4caf50;
+  }
+  
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .prev-button {
+    padding: 10px;
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  .prev-button:hover {
+    background: #666;
+    transform: scale(1.05);
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+  }
+  .category-input-num{
+    position: absolute;
+    right: 30px;
+    height: 10px;
+    width: 20%;
+  }
+  .category-input-dat{
+    position: absolute;
+    right: 106px;
+    height: 10px;
+    width: 39%;
+  }

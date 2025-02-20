@@ -1,0 +1,224 @@
+.page-capasitor-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dashboard {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    color: #f4f4f4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+.dashboard-grid{
+    width: 12%;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #252525;
+    border-radius: 8px;
+}
+
+.navbar h2 {
+    display: flex;
+    text-align: start;
+    color: #f4f4f4;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    width: fit-content;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.navbar h3 {
+    margin-top: 20px;
+    color: #ddd;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar h3:hover {
+    color: #4CAF50;
+}
+
+.summary,
+.budget,
+.balance-card {
+    background-color: transparent;
+    padding: 15px;
+    display: block;
+    margin-bottom: 0px;
+    width: fit-content;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.balance-card {
+    margin-left: auto;
+}
+
+.charts {
+    background-color: #2a2a2a;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 88%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.charts:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.reminders,
+.investments,
+.reports,
+.goals,
+.linked-accounts,
+.transactions {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reminders:hover,
+.investments:hover,
+.reports:hover,
+.goals:hover,
+.linked-accounts:hover,
+.transactions:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+.balance-card:hover,
+.summary:hover,
+.budget:hover,
+.reminders:hover,
+.investments:hover,
+.reports:hover,
+.goals:hover,
+.linked-accounts:hover,
+.transactions:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.balance-card h3,
+.summary h3,
+.charts h3,
+.budget h3,
+.reminders h3,
+.investments h3,
+.reports h3,
+.goals h3,
+.linked-accounts h3,
+.transactions h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+p {
+    color: #bbb;
+    font-size: 1rem;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    color: #ccc;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+ul li:hover {
+    color: #4CAF50;
+}
+
+.add-transaction-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 0px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: buttonAppear 1s ease-in-out;
+}
+
+.add-transaction-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+.add-transaction-btn:active {
+    background-color: #388E3C;
+    transform: translateY(0);
+}
+
+.expense {
+    color: #ff5252;
+    font-weight: bold;
+}
+
+.income {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.charts canvas {
+    width: fit-content;
+    max-height: 95dvh;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes buttonAppear {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

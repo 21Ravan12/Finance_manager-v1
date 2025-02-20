@@ -1,0 +1,66 @@
+.ReportsAnalysis-container {
+    width: 100%;
+    height: 100%;
+    background: #252525;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-left: 6px solid #af4c4c;
+}
+
+.reports-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    margin-bottom: 20px;
+}
+
+.date-filter {
+    margin-bottom: 20px;
+}
+
+.date-filter input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+}
+
+.summary-item {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.summary-item h5 {
+    margin-bottom: 5px;
+}
+
+.goal-tracker {
+    margin-top: 20px;
+}
+
+.financial-tips {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.financial-tips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.financial-tips li {
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
