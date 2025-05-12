@@ -1,3 +1,5 @@
+This is an old project and does not describe my products.
+---
 # Finance Manager
 
 Finance Manager is a web application designed to help users manage their finances effectively. It allows users to track their income and expenses, manage upcoming bills, set financial goals, link accounts, and analyze financial data through various reports.
