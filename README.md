@@ -65,4 +65,3 @@ To set up the project locally, follow these steps:
 This project is currently fully functional; however, there are no in-code comments. Future updates will include improved documentation, better code structure, and additional features. If you are contributing or making modifications, please consider adding relevant comments to improve readability and maintainability.
 
 Feel free to update the project with any additional features or improvements you see fit!
-
